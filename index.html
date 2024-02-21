@@ -4,72 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- link e para o ja se adpatar a celulares-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dev.finace$</title>
+    <!-- link e para o icon-->
+    <link rel="icon" href="./images/ico.png" type="image/png">
+    <!-- link e para o estilo-->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Pagina de captura</title>
 </head>
 
 <body>
 
-    <header>
-        <h1 id="logo">dev finance$</h1>
-    </header>
+    <div class="container">
+        <header>
 
-    <main>
-        <section id="balance">
-            <h2>Balnaço</h2>
-            <div class="card">
-                <h3>Entradas</h3>
-                <p>R$ 5.000,00</p>
-            </div>
-            <div class="card">
-                <h3>Saídas</h3>
-                <P>R$ 2000,00</P>
-            </div>
-            <div class="card">
-            <h3>Total</h3>
-            <P>R$ 2000,00</P>
-            </div>
-        </section>
-        <section id="transaction">
-            <h2>Transações</h2>
+            <h1 class="title">Participe do Workshop que vai mudar o seu negócio</h1>
 
-            <!-- tabela a abaixo-->
-            <table id="data-table">
-                <!-- cabeçario da tabela-->
-                <thead>
-                    <tr>
-                        <!-- linha do cabeçario da tabela-->
-                        <th>Descrição</th><!-- Descrição da coluna -->
-                        <th>Valor</th><!-- Descrição da coluna -->
-                        <th>Data</th><!-- Descrição da coluna -->
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- corpo da dados da tabela-->
-                    <tr>
-                        <!-- linha do dados-->
-                        <td>Luz</td><!-- Descrição da coluna -->
-                        <td>-Rs 500,00</td><!-- Descrição da coluna -->
-                        <td>23/01/2021</td><!-- Descrição da coluna  do valor-->
-                    </tr>
-                    <tr>
-                        <!-- linha do dados-->
-                        <td>Criação web</td><!-- Descrição da coluna -->
-                        <td>Rs 5.000,00</td><!-- Descrição da coluna -->
-                        <td>23/01/2021</td><!-- Descrição da coluna  do valor-->
-                    </tr>
-                    <tr>
-                        <!-- linha do dados-->
-                        <td>Internet</td><!-- Descrição da coluna -->
-                        <td>-Rs 200,00</td><!-- Descrição da coluna -->
-                        <td>23/01/2021</td><!-- Descrição da coluna  do valor-->
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </main>
+        </header>
 
-    <footer> dev finance$</footer>
+        <main>
+            <section>
+                <div class="FormContainer">
+                    <h2 class="md">Garanta o seu lugar no workshop do maior especialista em marketing da atualizade</h2>
+
+                    <p class="md">Neste evento, você vai aprender todos os segredos que vão te fazer ser um empreendedor
+                        de sucesso
+                        sem
+                        precisa conta com a sorte</p>
+
+                    <form action="" method="POST">
+                        <input type="text" name="nome" id="name" placeholder="Nome">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <select name="place">
+                            <option value="rj" id="Rio de janeiro">Rio de janeiro</option>
+                            <option value="sp" id="São paulo">São paulo</option>
+                            <option value="mg" id="Minas Gerias">Minas Gerias</option>
+                            <option value="es" id="Espirito Santo">Espirito Santo</option>
+                        </select>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </section>
+            
+        </main>
+
+        <footer>
+
+            <img class="picture" src='./images/face.jpg' alt="face">
+
+            <div class=description>
+                <h2>O Palestrante</h2>
+                <p>Carlos Fontana é conhecido por dar palestras que abalam a estrutura do marketing tradicional.Prepara-se para sair do evento com uma nova visão do que é possivel ser feito para seu negócio decolar</p>
+                <p>Formado em Marketing pela Universidade XYZ e fundador da markup, a empresa vencedora dos últimos 5
+                    Prêmios MarketingBR</p>
+            </div>
+        </footer>
+    </div>
 
 </body>
 
