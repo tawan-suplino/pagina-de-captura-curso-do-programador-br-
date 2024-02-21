@@ -1,0 +1,108 @@
+*{/*tira de toda a pagina*/
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: black;
+    /*Fonte parar pagina toda*/
+    font-family: Arial, Helvetica, sans-serif;
+   /**/
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto; /*Fica centralizador*/
+}
+
+header{
+    background-color: #48c5ce;
+    text-align: center;  /*coloca o texto no centro*/
+    color:white; /*cor do texto*/
+    padding: 10px;
+
+}
+.title{
+    font-size: 26px;/*mudando a tamanho da fonte do texto*/
+
+}
+
+section{
+   padding: 20px;
+   background-image: url('../images/people.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   overflow: hidden; /* hidden fazar preencher tudo */
+   
+}
+
+.FormContainer{
+
+    max-width: 230px;/*tamanho do meu formulario*/
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+    
+
+}
+
+h2{
+ font-size: 16px;
+}
+
+.md{
+    margin-bottom: 15px;
+}
+
+input, select{
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: turquoise;
+    font-weight: bold;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url('../images/arrow.jpg');
+    background-repeat: no-repeat;
+    background-position:  calc(100% - 10px) center;
+
+
+}
+
+footer{
+    background-color:  #202121 ;
+    color: white;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.picture{
+    width: 160px;
+
+}
+
+.description{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: justify;
+
+}
+
+.description p , .description h2{
+    margin-bottom: 20px;
+}
